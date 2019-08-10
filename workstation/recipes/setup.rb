@@ -9,7 +9,3 @@ package 'vim'
 package 'git'
 package 'ntp'
 package 'unzip'
-
-execute "run yum update" do
-  command "sudo yum update"
-end
